@@ -8,6 +8,7 @@ class Getmyip < Formula
 
   def install
     bin.install "getmyip"
+    chmod "+x", bin/"getmyip"
   end
 
   test do
